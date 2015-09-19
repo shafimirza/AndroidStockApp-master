@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/marketresultview"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#eaecee">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/unusualresultview"
+        android:layout_width="fill_parent"
+        android:layout_height="128dp"
+        android:background="#eaecee"
+        android:weightSum="1">
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="110dp"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:padding="5dp"
+        android:text="Name"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="61dp"
+            android:layout_height="match_parent"
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:padding="5dp"
+            android:text="Price"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_weight="0.22" />
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:padding="5dp"
+            android:text="$ Change"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_weight="0.84" />
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="96dp"
+            android:layout_height="match_parent"
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:padding="5dp"
+            android:text="% Change"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+    <ListView
+
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+
+        android:background="#0000FF">
+    </ListView>
+
+    <ListView
+        android:id="@+id/listView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:background="@color/list_divider"
+        android:divider="@color/counter_text_bg"
+        android:dividerHeight="0.1dp"
+        android:fastScrollEnabled="true">
+    </ListView>
+
+
+</LinearLayout>

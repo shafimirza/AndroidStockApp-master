@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.astock.androidstockapp.CustomeAutoCompleteTextView
+        android:id="@+id/autocomplete_stock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:dropDownVerticalOffset="5dp"
+        android:dropDownWidth="wrap_content"
+        android:ems="20"
+        android:drawableLeft="@mipmap/ic_action_search"
+        android:hint="@string/autocomplete_stock"
+        android:inputType="textAutoComplete|textAutoCorrect"
+        android:completionThreshold="1"
+        android:textSize="@dimen/abc_text_size_subhead_material">
+        <requestFocus />
+    </com.astock.androidstockapp.CustomeAutoCompleteTextView>
+
+
+</RelativeLayout>

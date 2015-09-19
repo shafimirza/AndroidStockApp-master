@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/market_row">
+
+
+        <TextView
+            android:id="@+id/Name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.37"
+            android:padding="5dp"
+            android:gravity="left"
+            android:textColor="#ffffff"/>
+        <TextView
+            android:id="@+id/Price"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.40"
+            android:padding="5dp"
+            android:gravity="left"
+            android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:id="@+id/Changeprice"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.61"
+            android:gravity="right"
+            android:textColor="#ffffff"/>
+        <TextView
+            android:id="@+id/slash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textColor="#ffffff"
+            android:layout_weight="0.17" />
+        <TextView
+            android:id="@+id/Changeperc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.61"
+            android:padding="5dp"
+            android:gravity="left"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+
+</LinearLayout>
