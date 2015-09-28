@@ -1,8 +1,4 @@
 package com.astock.androidstockapp;
-import com.astock.webservice.*;
-
-import java.util.ArrayList;
-import java.util.HashMap;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -15,6 +11,11 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 import android.widget.TextView;
+
+import com.astock.webservice.WebServiceCall;
+
+import java.util.ArrayList;
+import java.util.HashMap;
 
 
 

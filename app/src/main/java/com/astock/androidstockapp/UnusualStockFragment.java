@@ -72,11 +72,11 @@ public class UnusualStockFragment extends Fragment {
 
 
         mTabHost.addTab(mTabHost.newTabSpec("NYSE").setIndicator("NYSE",null),
-                TabFragment2.class, null);
+                TabFragment.class, null);
         mTabHost.addTab(mTabHost.newTabSpec("NASDAQ").setIndicator("NASDAQ",null),
-                TabFragment2.class, null);
+                TabFragment.class, null);
         mTabHost.addTab(mTabHost.newTabSpec("AMEX").setIndicator("AMEX",null),
-                TabFragment2.class, null);
+                TabFragment.class, null);
 
 
 
